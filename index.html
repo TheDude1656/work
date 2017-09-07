@@ -6,15 +6,15 @@
   <title>Hammel Scale of Kansas City</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-  <div class="header">
+  <!-- <div class="header">
     <img src="assets/images/hammel_logo-1.png" alt="logo">
-  </div>
+  </div> -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #00008B;">
     <a class="navbar-brand" href="#">Hammel Scale</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,14 +22,18 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="nav navbar-pills mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Industrial</a>
+          <div class="dropdown-menu dropdown-submenu">
+            <!-- <a class="dropdown-item" href="#">Industrial</a> -->
+            <a class="dropdown-item" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Industrial&nbsp<i class="fa fa-caret-right" aria-hidden="true"></i></a>
 
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">More Industrial</a>
+            </div>
             <a class="dropdown-item" href="#">Labratory</a>
             <a class="dropdown-item" href="#">Truck Probes</a>
             <a class="dropdown-item" href="#">Weigh Modules</a>
@@ -62,10 +66,11 @@
       </ul>
       <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
+
 
   <!--  carousel start -->
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -105,11 +110,50 @@
       </a>
   </div>
   <!-- carousel-stop -->
-
+  <!--
   <div class="header jumbotron ">
     <h1>Hammel Scale of Kansas City</h1>
     <h3>Mettler Toledo</h3>
     <h4>Sales - Service - Rentals <br> Phone: (913) 321-5428<br>Fax: (913) 321-5464<br>612 Kansas Ave.<br>Kansas City, KS 66105-1312</h4>
+  </div> -->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1>Your Weighing Solutions<h1>
+          <h2>Experts For over 40 years<h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top"src="assets/images/scale.jpg" alt="scale">
+  <div class="card-block">
+      <h4 class="card-title">Products</h4>
+      <p class="card-text">Industrial Products, Laboratory Products, Grain Handling Products, Load Cells and Weigh Moduels</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top"src="assets/images/scale.jpg" alt="scale">
+  <div class="card-block">
+      <h4 class="card-title">Products</h4>
+      <p class="card-text">Industrial Products, Laboratory Products, Grain Handling Products, Load Cells and Weigh Moduels</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top"src="assets/images/scale.jpg" alt="scale">
+  <div class="card-block">
+      <h4 class="card-title">Products</h4>
+      <p class="card-text">Industrial Products, Laboratory Products, Grain Handling Products, Load Cells and Weigh Moduels</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
   </div>
   <script type="text/javascript" src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
